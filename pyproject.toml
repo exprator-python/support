@@ -1,0 +1,14 @@
+[project]
+name = "support"
+version = "0.1.0"
+description = "A small support project using langchain"
+requires-python = ">=3.11"
+dependencies = [
+    "django>=5.2.6",
+    "langchain>=0.3.27",
+    "langchain-openai>=0.3.33",
+    "langgraph>=0.6.7",
+    "pytest>=8.4.2",
+    "pytest-django>=4.11.1",
+    "python-dotenv>=1.1.1",
+]
